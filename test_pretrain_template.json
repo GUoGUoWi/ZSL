@@ -1,0 +1,32 @@
+{
+  "numpy_random_seed": 64,
+  "torch_random_seed": 54,
+  "random_seed": 54,
+  "aligned_expect_classes": [0,1,2],
+  "meta_params": [
+    {
+      "N_way": 3,
+      "K_shot": 5,
+      "Q_query": 7,
+      "inner_steps": 2
+    },
+    {
+      "N_way": 3,
+      "K_shot": 6,
+      "Q_query": 6,
+      "inner_steps": 3
+    },
+    {
+      "N_way": 3,
+      "K_shot": 5,
+      "Q_query": 7,
+      "inner_steps": 2
+    },
+    {
+      "N_way": 3,
+      "K_shot": 3,
+      "Q_query": 6,
+      "inner_steps": 6
+    }
+  ]
+}
